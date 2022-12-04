@@ -1,0 +1,87 @@
+#review_bkg {
+    position: absolute;
+    width: 100%;
+    height: 130%;
+    left: 0px;
+    top: 350%;
+    z-index: -1;
+}
+
+#review h1 {
+    position: absolute;
+    top: 375%;
+    left: 43%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34.359px;
+    line-height: 139.02%;
+}
+
+/*================================== Review card ======================================*/
+
+#review #review_card , #review div{
+    position: absolute;
+    top: 400%;
+    left: 12%;
+
+
+    box-shadow: 0px 7px 15px -1px rgba(131, 204, 96, 0.23);
+    border-radius: 10px;
+    padding: 40px 300px 80px 20px;
+}
+
+
+
+div .user_name {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 62px;
+    height: 15px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+}
+
+div .stars {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+
+}
+
+div .user_rev {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width: 407px;
+    height: 90px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 140.02%;
+
+    color: #696868;
+}
+
+#review #review_card2{
+    position: absolute;
+    top: 400%;
+    left: 40%;
+}
+
+#review #review_card3{
+    position: absolute;
+    top: 400%;
+    left: 68%;
+}

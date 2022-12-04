@@ -1,0 +1,146 @@
+
+
+(function () {
+    'use strict';
+
+    make_card()
+
+    const menus = ["appetizer_manu","Main_Course_manu", "Special_Offer_manu","Soup_manu","Desserts_manu","Drinks_Tea_manu"];
+
+    function make_card() {
+        for (let i = 2; i <= 7; i++) {
+
+            var new_card = document.querySelector('#card1');
+            var clone = new_card.cloneNode(true);
+            clone.id = `card${i}`;
+            
+            if (i>4){
+                document.getElementById('cards_row2').append(clone);
+            }
+            else{
+                document.getElementById('cards_row1').append(clone);
+            }
+        
+            document.querySelector(`#card${i} img`).src = `images/appetizer/ap${i}.png`;    
+        }
+
+    }
+
+
+
+})();
+
+
+#appetizer_menu #cards_row1 div, #cards_row2 div {
+    float: left;
+    margin: 63px;
+    align-items: center;
+
+    background: #FFFFFF;
+    border-radius: 0px 0px 5px 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+
+    color: #888888;
+}
+
+#appetizer_menu #cards_row1{
+    position: absolute;
+    top: 270%;
+    left: 10.5%;
+}
+
+#appetizer_menu #cards_row2{
+    position: absolute;
+    top: 305%;
+    left: 10.5%;
+}
+
+
+
+/*================================== Main Course ======================================*/
+
+#Main_Course_menu #cards_row1 div, #cards_row2 div  {
+    float: left;
+    margin: 63px;
+    align-items: center;
+
+    background: #FFFFFF;
+    border-radius: 0px 0px 5px 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+
+    color: #888888;
+}
+
+#Main_Course_menu #cards_row1{
+    position: absolute;
+    top: 270%;
+    left: 10.5%;
+}
+
+#Main_Course_menu #cards_row2{
+    position: absolute;
+    top: 305%;
+    left: 10.5%;
+}
+
+
+
+
+    const Appetizer_btn = document.getElementById('Appetizer');
+    const Main_Course_btn = document.getElementById('Main_Course');
+    const Special_Offer_btn = document.getElementById('Special_Offer');
+    const Soup_btn = document.getElementById('Soup');
+    const Desserts_btn = document.getElementById('Desserts');
+    const Drinks_Tea_btn = document.getElementById('Drinks_Tea');
+
+
+
+    const onClick = (event) => {
+        var x = event.srcElement.id;
+        return x;
+    }
+    console.log(window.addEventListener('click', onClick));
+
+
+    Main_Course_btn.addEventListener('click', function (event) {
+        make_card("Main_Course_menu", "main_course", "m");
+    });
+
+
+
+
+
+
+
+
+            //Delete the appeared menu
+        for (let i = 2; i <= 8; i++) {
+
+            const element = document.getElementById(`card${i}`);
+            element.remove();
+        }
+
+
+    function reset_menus() {
+        var div = document.getElementById('cards_row1');
+
+        while (div.firstChild) {
+            div.removeChild(div.firstChild);
+        }
+
+        var div = document.getElementById('cards_row2');
+
+        while (div.firstChild) {
+            div.removeChild(div.firstChild);
+        }
+    }

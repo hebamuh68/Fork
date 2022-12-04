@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;700&display=swap');
+
+
+/* Background */
+body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Inter', sans-serif;
+}
+
+#hero_bkg {
+    position: absolute;
+    width: 100%;
+    height: 115%;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+/* ===================================nav bar=================================== */
+nav {
+    margin-left: 3%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul,
+li {
+    list-style-type: none;
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    margin: 20px;
+}
+
+#logo {
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+nav ul a:hover {
+    color: #4F4F4F;
+}
+
+nav ul a.active {
+    color: #4F4F4F;
+
+}
+
+nav ul a.focus {
+    color: #4F4F4F;
+
+}
+
+/* ===================================title=================================== */
+#hero h1 {
+
+    position: absolute;
+    left: 10%;
+    top: 25%;
+
+    width: 50%;
+    height: 3%;
+
+    color: #1F1614;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 139.02%;
+}
+
+#mk_order {
+    position: absolute;
+    width: 249px;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 12px 30px;
+
+    left: 10%;
+    top: 52%;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 139.02%;
+
+    color: #83CC60;
+    background: #1F1614;
+    border: #83CC60;
+    border-radius: 15px;
+}
+
+#mk_order:hover {
+    color: #ffffff;
+    background: #1F1614;
+}
+
+/* ===================================images=================================== */
+
+#sp_off {
+    position: absolute;
+    left: 7%;
+    top: 65%;
+}
+
+#dh1,
+#dh2,
+#dh3 {
+    float: left;
+    margin: 40px;
+    align-items: center;
+}
+
+#sp_off h3 {
+    position: relative;
+    padding: 12px 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 139.02%;
+    text-align: center;
+    color: white;
+
+    background: rgba(244, 244, 244, 0.12);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#sp_off a {
+    position: absolute;
+    top: 65%;
+    padding-left: 21%;
+}
+
+#sp_off #p3 {
+    padding-left: 23%;
+}

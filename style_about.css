@@ -1,0 +1,108 @@
+/*================================== About Us ======================================*/
+
+#about_bkg {
+    position: absolute;
+    width: 100%;
+    height: 130%;
+    left: 0px;
+    top: 106%;
+    z-index: -1;
+}
+
+#h_about {
+    position: absolute;
+    top: 110%;
+    left: 7%;
+    width: 156px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34.359px;
+    line-height: 139.02%;
+
+    color: #000000;
+}
+
+#p_about {
+    position: absolute;
+    width: 634px;
+    height: 225px;
+    top: 120%;
+    left: 7%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.1795px;
+    line-height: 160%;
+
+    color: #000000;
+
+}
+
+#about_pic {
+    position: absolute;
+    width: 574px;
+    height: 398px;
+    top: 114%;
+    left: 63%;
+}
+
+
+/*================================== Why Fork ======================================*/
+
+#why {
+    position: absolute;
+    width: 178px;
+    height: 48px;
+    top: 170%;
+    left: 45.5%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34.359px;
+    line-height: 139.02%;
+    /* identical to box height, or 48px */
+
+
+    color: #000000;
+}
+
+#why_fork {
+    position: absolute;
+    top: 180%;
+    left: 13.5%;
+}
+
+#about_us #P1,
+#P2,
+#P3 {
+
+    float: left;
+    margin: 50px;
+    align-items: center;
+
+    width: 350px;
+    height: 350px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 182.02%;
+
+    text-align: center;
+    color: #FFFFFF;
+
+    box-sizing: border-box;
+    padding: 115px 30px;
+
+
+    background: #83CC60;
+    border: none;
+    border-radius: 15px;
+
+}

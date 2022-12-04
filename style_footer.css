@@ -1,0 +1,10 @@
+#social_icons{
+    position: absolute;
+    left:45%; 
+    top: 579%;
+
+}
+
+#social_icons a{
+    margin: 15px;
+}

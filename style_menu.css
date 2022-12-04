@@ -1,0 +1,89 @@
+#menu_title {
+    position: absolute;
+    width: 178px;
+    height: 48px;
+    top: 243%;
+    left: 47%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34.359px;
+    line-height: 139.02%;
+}
+
+#menu_options {
+    position: absolute;
+    top: 255%;
+    left: 12%;
+}
+
+#menu a {
+    float: left;
+    margin: 40px;
+    align-items: center;
+
+    width: 153px;
+    height: 48px;
+    box-sizing: border-box;
+    padding-top: 12px;
+
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 139.02%;
+
+    color: #ffffff;
+    background: #83CC60;
+    border: #83CC60;
+    border-radius: 20px;
+}
+
+#menu_options a:hover {
+    color: #4F4F4F;
+    background: #F1F1F1;
+}
+
+
+#menu_options a:focus {
+    color: #4F4F4F;
+    background: #F1F1F1;
+}
+
+/*================================== Main_menu ======================================*/
+
+#Main_menu #cards_row1 div,
+#cards_row2 div {
+    float: left;
+    margin: 63px;
+    align-items: center;
+
+    background: #FFFFFF;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+
+    color: #888888;
+}
+
+#Main_menu #cards_row1 {
+    position: absolute;
+    top: 270%;
+    left: 10.5%;
+    filter: drop-shadow(0px 4px 11px rgba(131, 204, 96, 0.41));
+}
+
+#Main_menu #cards_row2 {
+    position: absolute;
+    top: 305%;
+    left: 10.5%;
+    filter: drop-shadow(0px 4px 11px rgba(131, 204, 96, 0.41));
+}

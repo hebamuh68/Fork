@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;700&display=swap');
+
+#contact_bkg {
+    position: absolute;
+    width: 100%;
+    height: 140%;
+    left: 0px;
+    top: 450%;
+    z-index: -1;
+}
+
+#contact_us h1 {
+    position: absolute;
+    top: 456%;
+    left: 43%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34.359px;
+    line-height: 139.02%;
+}
+
+#contact_details_pic img {
+    display: block;
+    filter: drop-shadow(0px 4px 10px rgba(136, 216, 99, 0.192));
+}
+
+#contact_details_pic {
+    position: absolute;
+    left: 12%;
+    top: 500%;
+}
+
+
+#contact_details {
+    position: absolute;
+    left: 16%;
+    top: 500%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 210%;
+}
+
+
+
+
+#contact_us form {
+    position: absolute;
+    left: 45%;
+    top: 498%;
+
+    display: block;
+}
+
+#contact_us input {
+    margin: 20px;
+    padding-left: 10px;
+
+    display: block;
+    box-sizing: border-box;
+
+    width: 279px;
+    height: 45px;
+
+    border: 1px solid #FFCBA6;
+    border-radius: 10px;
+
+    outline: none;
+}
+
+
+#feedback {
+    position: absolute;
+    top: 500%;
+    left: 65%;
+
+    width: 25%;
+    height: 173px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #FFCBA6;
+    border-radius: 10px;
+    resize: none;
+
+    outline: none;
+}
+
+
+#contact_us a {
+    position: absolute;
+    left: 228%;
+    top: 100%;
+}
+
+::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 199.02%;
+
+
+    color: #858585;
+}
